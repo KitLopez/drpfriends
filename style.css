@@ -1,0 +1,52 @@
+body, html {
+	height: 100%;
+	margin: 0;
+	font-family: Arial;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.bg-image {
+	/* The image use */
+	background-image: url("friends.jpg");
+
+	/* add filter the blur effect*/
+	filter: blur(8px);
+	-webkit-filter:blur(8px);
+
+	/* Full height */
+	height: 100%;
+
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.bg-text {
+	background-color: rgb(0,0,0);
+	background-color: rgb(0,0,0, 0.4);
+	color: white;
+	font-weight: bold;
+	border: 3px solid #f1f1f1;
+	position: absolute;
+	top: 30%;
+	left:35%;
+	transform: translate(5%, 5%);
+	z-index: 2;
+	width: 30%;
+	padding: 20px;
+	text-align: center;
+}
+.footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: white;
+	text-align: center;
+	
+	
+	
+}
